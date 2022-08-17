@@ -11,3 +11,9 @@ body {
   background-color: var(--bg-primary);
   color: var(--text-primary);
 }
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}

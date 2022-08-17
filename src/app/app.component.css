@@ -1,0 +1,23 @@
+.bg-grad-top {
+  position: absolute;
+  width: 905px;
+  height: 903px;
+  left: calc(50% - 905px / 2 - 235.5px);
+  top: -756px;
+  background: #8080d7;
+  filter: blur(322px);
+  z-index: -2;
+  opacity: 0.8;
+}
+
+.bg-grad-right {
+  position: absolute;
+  width: 905px;
+  height: 903px;
+  left: calc(50% - 905px / 2 + 915.5px);
+  top: 283px;
+  background: rgba(170, 217, 217, 0.72);
+  filter: blur(322px);
+  z-index: -2;
+  opacity: 0.8;
+}
