@@ -1,8 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
 :root {
   --bg-primary: #00002e;
+  --text-primary: #ffffff;
 }
 
 body {
   background-color: var(--bg-primary);
+  color: var(--text-primary);
 }
