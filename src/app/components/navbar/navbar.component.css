@@ -1,0 +1,14 @@
+.brand {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+ul li {
+  margin-right: 72px;
+  list-style: none;
+}
