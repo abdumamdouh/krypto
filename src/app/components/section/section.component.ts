@@ -10,9 +10,13 @@ export class SectionComponent implements OnInit {
   @Input() heading: string = '';
   @Input() text: string = '';
   @Input() button: string = '';
+  @Input() id: number = 0;
   @Input() reverse: boolean = false;
+  src: string = '';
 
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.src = `../../../assets/sections/section-${this.id}.png`;
+  }
 }
