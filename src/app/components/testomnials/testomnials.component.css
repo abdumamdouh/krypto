@@ -1,0 +1,31 @@
+section {
+  margin-top: 123px;
+}
+
+div span {
+  width: 168px;
+  height: 28px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 19px;
+}
+
+h1 {
+  width: 511px;
+  height: 120px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 100%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-bottom: 147px;
+}

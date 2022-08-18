@@ -6,6 +6,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HeroSectionComponent } from './components/hero-section/hero-section.component';
 import { LogosComponent } from './components/logos/logos.component';
 import { SectionComponent } from './components/section/section.component';
+import { TestomnialsComponent } from './components/testomnials/testomnials.component';
+import { CardComponent } from './components/card/card.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +16,8 @@ import { SectionComponent } from './components/section/section.component';
     HeroSectionComponent,
     LogosComponent,
     SectionComponent,
+    TestomnialsComponent,
+    CardComponent,
   ],
   imports: [BrowserModule],
   providers: [],
