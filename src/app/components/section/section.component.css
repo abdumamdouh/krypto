@@ -73,3 +73,30 @@ p {
   order: 0;
   flex-grow: 0;
 }
+
+@media (max-width: 768px) {
+  section {
+    margin-top: 80px;
+  }
+
+  h1,
+  h2 {
+    width: auto;
+    font-weight: 500;
+    font-size: 40px;
+  }
+
+  p {
+    width: auto;
+  }
+
+  .button {
+    font-weight: 500;
+    font-size: 15px;
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+  }
+}

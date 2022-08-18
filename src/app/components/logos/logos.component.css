@@ -29,3 +29,26 @@ span {
 .logo:hover {
   transform: scale(1.1);
 }
+
+@media (max-width: 768px) {
+  section {
+    margin-top: 70px;
+  }
+
+  .transparent-box {
+    margin-top: 10px;
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+    padding: 20px 10px;
+    margin: 0 auto;
+  }
+
+  .logo {
+    margin-bottom: 25px;
+  }
+  span {
+    margin-left: 25px;
+    margin-top: 15px;
+  }
+}
