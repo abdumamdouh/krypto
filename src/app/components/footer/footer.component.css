@@ -73,6 +73,12 @@ section span {
   cursor: pointer;
 }
 
+.sub:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  opacity: 0.8;
+}
+
 .sub div {
   width: 64px;
   height: 28px;

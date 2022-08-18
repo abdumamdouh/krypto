@@ -49,6 +49,12 @@ h1 {
   border-radius: 50px;
 }
 
+.button:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  opacity: 0.8;
+}
+
 .button div {
   width: 153px;
   height: 28px;

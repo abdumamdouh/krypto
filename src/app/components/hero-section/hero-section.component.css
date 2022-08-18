@@ -40,6 +40,11 @@ p {
   cursor: pointer;
 }
 
+.button:hover {
+  transform: scale(1.02);
+  opacity: 0.8;
+}
+
 .b-primary {
   width: 255px;
   height: 73px;
