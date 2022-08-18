@@ -129,4 +129,8 @@ h5 {
   ul {
     margin-bottom: 40px;
   }
+
+  .flex {
+    flex-direction: column;
+  }
 }
