@@ -34,4 +34,14 @@ h1 {
   .row div {
     margin-bottom: 130px;
   }
+  div span {
+    width: 138px;
+    height: auto;
+  }
+
+  h1 {
+    width: 311px;
+    height: auto;
+    font-size: 40px;
+  }
 }

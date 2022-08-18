@@ -35,3 +35,9 @@
   right: 0;
   background: linear-gradient(278.2deg, #54a4a4 1.59%, #5b5bb8 101.68%);
 }
+
+@media (max-width: 768px) {
+  .bottom-effect {
+    display: none;
+  }
+}

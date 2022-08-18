@@ -71,3 +71,35 @@ h1 {
   flex-grow: 0;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  section.grad {
+    margin-top: 90px;
+    width: 90%;
+    height: auto;
+    background: linear-gradient(278.2deg, #54a4a4 1.59%, #5b5bb8 101.68%);
+    border-radius: 30px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  h1 {
+    width: 80%;
+    height: auto;
+    font-size: 30px;
+  }
+
+  .button {
+    padding: 19px 73px;
+    width: 250px;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .button div {
+    width: 80%;
+    height: auto;
+    font-weight: 500;
+    font-size: 10px;
+    margin: 0 auto;
+  }
+}

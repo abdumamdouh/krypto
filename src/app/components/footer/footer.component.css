@@ -120,3 +120,18 @@ input::placeholder {
 h5 {
   margin-bottom: 36px;
 }
+
+@media (max-width: 768px) {
+  .flex {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+  }
+  span {
+    margin-bottom: 20px;
+  }
+  ul {
+    margin-bottom: 40px;
+  }
+}
