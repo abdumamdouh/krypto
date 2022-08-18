@@ -29,3 +29,9 @@ h1 {
   color: #ffffff;
   margin-bottom: 147px;
 }
+
+@media (max-width: 768px) {
+  .row div {
+    margin-bottom: 130px;
+  }
+}

@@ -60,3 +60,28 @@ p {
   border: 1px solid #8ccaca;
   border-radius: 50px;
 }
+
+@media (max-width: 768px) {
+  section {
+    margin-top: 40px;
+  }
+  h1 {
+    font-weight: 500;
+    font-size: 50px;
+  }
+  .button {
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .b-primary {
+    width: 200px;
+  }
+
+  .b-ghost {
+    width: 200px;
+  }
+  img {
+    width: 100%;
+  }
+}

@@ -33,3 +33,14 @@ nav a:hover {
   text-decoration: none;
   transform: scale(1.1);
 }
+
+@media (max-width: 768px) {
+  nav.flex {
+    flex-direction: column;
+  }
+
+  ul.flex li {
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+}
