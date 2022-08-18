@@ -11,6 +11,7 @@
 ul li {
   margin-right: 72px;
   list-style: none;
+  border-bottom: 1px solid transparent;
 }
 ul li:hover {
   /* transform: scale(1.1); */
