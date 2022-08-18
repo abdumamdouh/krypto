@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HeroSectionComponent } from './components/hero-section/hero-section.component';
 import { LogosComponent } from './components/logos/logos.component';
+import { SectionComponent } from './components/section/section.component';
 
 @NgModule({
   declarations: [
@@ -12,6 +13,7 @@ import { LogosComponent } from './components/logos/logos.component';
     NavbarComponent,
     HeroSectionComponent,
     LogosComponent,
+    SectionComponent,
   ],
   imports: [BrowserModule],
   providers: [],

@@ -1,0 +1,69 @@
+section {
+  margin-top: 123px;
+}
+
+span {
+  width: 126px;
+  height: 28px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+h2 {
+  width: 515.27px;
+  height: 121.48px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 100%;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-bottom: 28px;
+}
+
+p {
+  width: 377.6px;
+  height: 84.02px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 28px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 19px 73px;
+  gap: 10px;
+  width: 365.45px;
+  height: 66.81px;
+  background: #8d8dda;
+  border-radius: 50px;
+}
+
+.button span {
+  width: 215px;
+  height: 28px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
