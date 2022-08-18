@@ -3,7 +3,7 @@ section {
 }
 
 span {
-  width: 126px;
+  width: auto;
   height: 28px;
   font-family: "Outfit";
   font-style: normal;
@@ -52,8 +52,12 @@ p {
   border-radius: 50px;
 }
 
+.button:hover {
+  cursor: pointer;
+}
+
 .button span {
-  width: 215px;
+  width: auto;
   height: 28px;
   font-family: "Outfit";
   font-style: normal;
