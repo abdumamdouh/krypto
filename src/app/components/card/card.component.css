@@ -1,0 +1,22 @@
+p {
+  text-align: center;
+  margin-top: 17px;
+}
+
+.main {
+  width: 345px;
+  height: 272px;
+  background: #131345;
+  border-radius: 17px;
+  position: relative;
+}
+
+.avatar {
+  position: absolute;
+  top: -75px;
+}
+
+h3 {
+  margin-top: 92px;
+  text-transform: uppercase;
+}
