@@ -9,9 +9,9 @@ export class CardComponent implements OnInit {
   @Input() name: string = '';
   @Input() id: number = 0;
   srrc: string = '';
-  constructor() {
+  constructor() {}
+
+  ngOnInit(): void {
     this.srrc = `../../../assets/persons/person-${this.id}.png`;
   }
-
-  ngOnInit(): void {}
 }
