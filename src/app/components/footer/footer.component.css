@@ -70,6 +70,7 @@ section span {
   height: 53px;
   background: #8d8dda;
   border-radius: 70px;
+  cursor: pointer;
 }
 
 .sub div {
@@ -89,8 +90,6 @@ section span {
 }
 
 .em {
-  left: 65%;
-  right: 27.15%;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -99,6 +98,17 @@ section span {
   color: #ffffff;
   opacity: 0.62;
   padding-left: 25px;
+}
+
+.em input[type="text"] {
+  outline: none;
+  box-shadow: none;
+  border: none;
+  background-color: #131345;
+}
+
+input::placeholder {
+  color: #fff;
 }
 
 h5 {
