@@ -21,3 +21,17 @@
   z-index: -2;
   opacity: 0.8;
 }
+
+.pos {
+  position: relative;
+}
+
+.bottom-effect {
+  position: absolute;
+  width: auto;
+  height: 15px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(278.2deg, #54a4a4 1.59%, #5b5bb8 101.68%);
+}

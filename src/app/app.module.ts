@@ -9,6 +9,7 @@ import { SectionComponent } from './components/section/section.component';
 import { TestomnialsComponent } from './components/testomnials/testomnials.component';
 import { CardComponent } from './components/card/card.component';
 import { GradSectionComponent } from './components/grad-section/grad-section.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { GradSectionComponent } from './components/grad-section/grad-section.com
     TestomnialsComponent,
     CardComponent,
     GradSectionComponent,
+    FooterComponent,
   ],
   imports: [BrowserModule],
   providers: [],
