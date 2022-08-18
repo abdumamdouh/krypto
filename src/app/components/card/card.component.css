@@ -16,6 +16,10 @@ p {
   top: -75px;
 }
 
+.avatar img {
+  filter: grayscale(90%);
+}
+
 h3 {
   margin-top: 92px;
   text-transform: uppercase;
