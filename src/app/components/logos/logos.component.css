@@ -25,3 +25,7 @@ span {
   justify-content: space-around;
   align-items: center;
 }
+
+.logo:hover {
+  transform: scale(1.1);
+}
