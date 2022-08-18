@@ -51,3 +51,56 @@ section span {
   text-transform: uppercase;
   color: #ffffff;
 }
+
+.email {
+  width: 345px;
+  height: 53px;
+  background: #131345;
+  border-radius: 70px;
+}
+
+.sub {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 70px 19px 73px;
+  gap: 10px;
+  width: 130px;
+  height: 53px;
+  background: #8d8dda;
+  border-radius: 70px;
+}
+
+.sub div {
+  width: 64px;
+  height: 28px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.em {
+  left: 65%;
+  right: 27.15%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 31px;
+  color: #ffffff;
+  opacity: 0.62;
+  padding-left: 25px;
+}
+
+h5 {
+  margin-bottom: 36px;
+}
