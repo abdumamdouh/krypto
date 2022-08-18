@@ -122,14 +122,9 @@ h5 {
 }
 
 @media (max-width: 768px) {
-  .flex {
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
-  }
   span {
-    margin-bottom: 20px;
+    display: inline-block;
+    margin-bottom: 30px;
   }
   ul {
     margin-bottom: 40px;
